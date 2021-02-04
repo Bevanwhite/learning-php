@@ -14,8 +14,9 @@
         $title="Best of Luck!!!!";
     ?>
     
-    <h1><?php 
-            // in here we are using that variable (title) 
+    <h1>
+        <?php 
+            // in here we are using that variable (title) and it will be displaying it
             echo $title; 
         ?>
     </h1>
