@@ -36,11 +36,34 @@
         print implode (', ', $number);echo "<br>";
         print join(' ,',$number);echo "<br>";
         $number = array(267, 8765, 345, '2568', 245, '<h1>hello</h1>',55);
-        print join(', ', $number);echo "<br>";echo "<br>";
+        print join(', ', $number)."<br>"."<br>";
         echo $number[5];
         // array with element numbers
         print_r($number);
 
+        //Associative Arrays
+        // how you can change the index number to which ever name
+        $name = array('juanita','maria','jose');
+        echo $name[2]."<br>";
+        print_r($name);
+        $names = array('first_name' => $name[0]);
+        print_r($names);
+        $num1 = array(10,20,49);echo "<br>";echo "<br>";
+        echo $num1[1]."<br>";
+
+        //practice
+        // 1
+        $number1 = 10;
+        $number2 = 20;
+
+        echo $number1 + $number2 . "<br>";
+        // 2
+        $list_one = array(23,24,25,4573,'34re');
+        $list_two = array('FIRST'=> $list_one[0],'Second'=> $list_one[1],'Third'=> $list_one[2],'Fourth'=> $list_one[3],'Fifth'=> $list_one[4],);
+
+        print_r($list_one);
+        print_r($list_two);
+        
     ?>
 </body>
 </html>
